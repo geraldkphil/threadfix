@@ -45,7 +45,7 @@ public class ThreadFixCWERulesDefinition implements RulesDefinition, BatchExtens
 
     List<String> languages = list(
             ThreadFixLanguage.LANGUAGE_KEY, "pli", "abap", "py", "vbnet", "php", "vb", "cs", "rpg", "js",
-            "cobol", "c", "cpp", "objc", "web", "xml", "flex", "plsql", "java", "css", "grvy"
+            "cobol", "c", "cpp", "objc", "web", "xml", "flex", "plsql", "java", "css", "grvy", "sf", "vf"
     );
 
     public ThreadFixCWERulesDefinition(Languages languages) {

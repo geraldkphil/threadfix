@@ -59,6 +59,7 @@ public class ThreadFixPlugin extends SonarPlugin {
 
                 // language profiles
                 AbapProfile.class,
+				ApexProfile.class,
                 CobolProfile.class,
                 CppProfile.class,
                 CProfile.class,
@@ -76,6 +77,7 @@ public class ThreadFixPlugin extends SonarPlugin {
                 RpgProfile.class,
                 VbNetProfile.class,
                 VbProfile.class,
+				VisualForceProfile.class,
                 WebProfile.class,
                 XmlProfile.class,
 
